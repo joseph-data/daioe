@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dynamic AI Occupational Exposure Index",
+    "section": "",
+    "text": "DAIOE tracks how advances in artificial intelligence change the potential impact of AI on different occupations over time. It’s a panel index (2010–) that updates annually and distinguishes between nine major AI subdomains (e.g., language modeling, image generation, speech recognition). Think of it as a moving barometer of where AI capabilities could matter most—not as a forecast of job loss or gain. The net employment effect, e.g., depends on how organisations adopt and apply AI.\n\n\n\nBecause DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it “unpacks” AI–enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of “unpacking” exposure to AI."
+  },
+  {
+    "objectID": "index.html#what-it-is-in-plain-english",
+    "href": "index.html#what-it-is-in-plain-english",
+    "title": "Dynamic AI Occupational Exposure Index",
+    "section": "",
+    "text": "DAIOE tracks how advances in artificial intelligence change the potential impact of AI on different occupations over time. It’s a panel index (2010–) that updates annually and distinguishes between nine major AI subdomains (e.g., language modeling, image generation, speech recognition). Think of it as a moving barometer of where AI capabilities could matter most—not as a forecast of job loss or gain. The net employment effect, e.g., depends on how organisations adopt and apply AI."
+  },
+  {
+    "objectID": "index.html#why-its-useful",
+    "href": "index.html#why-its-useful",
+    "title": "Dynamic AI Occupational Exposure Index",
+    "section": "",
+    "text": "Because DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it “unpacks” AI–enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of “unpacking” exposure to AI."
+  },
+  {
+    "objectID": "notebooks/faq.html",
+    "href": "notebooks/faq.html",
+    "title": "FAQs",
+    "section": "",
+    "text": "Does “exposure” mean automation or job loss?\n\nNo—DAIOE captures potential applicability of AI capabilities to occupational content. Whether this changes jobs, e.g., depends on adoption, complements, and organisational choices. Thus, the DAIOE is “agnostic” about job displacement, augmentation, and other potential effects.\n\n\n\nIs it a forecast for AI adoption?\n\nDAIOE captures potential applicability of AI in occupations. If, when and how AI will be applied in an occupation depends, e.g., on the cost of aquiring, adapting and using the technology in that occupation, the institutional setting (e.g., laws and regulations), etc.\n\n\n\nWhat’s different about DAIOE versus prior indices (e.g., AIOE, patent-based)?\n\nDAIOE is dynamic and grounded in measured AI benchmark progress. It tracks nine subdomains over time and explicitly adjusts for social interaction. Thus, it “unpacks” AI–enabling analysis of how different areas within AI expose occupational content to its abilities.\n\n\n\nWhich occupations tend to score highest?\n\nCognitive, non-physical roles with lower social-interaction intensity—often white-collar—tend to rank higher.\n\n\n\nDo the data say anything about employment outcomes?\n\nAcross Denmark, Portugal, and Sweden, we find no systematic change in total headcount, but consistent up-skilling: higher DAIOE relates to higher high-/low-skill ratios and a shift from low-skill clerical toward high-skill white-collar work. Blue-collar associations average near zero, with heterogeneity by subdomain.\n\n\n\nHow do you handle interpersonal-heavy work?\n\nWe compute a social-skills index from O*NET (importance × level across six social skills) and discount exposure accordingly.\n\n\n\nWhat exactly are the nine AI subdomains?\n\nGames (abstract strategy; real-time video); Vision (recognition, comprehension, generation); Language (reading comprehension, language modelling, translation, speech recognition).\n\n\n\nCan I compare across countries or industries?\n\nYes. Combine occupation-level DAIOE with local workforce structures (firms, industries, regions) to assess exposure distributions.\nIs there a “genAI” version? We provide a generative-AI sub-index that combines language modelling and image generation.\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "notebooks/shiny.html",
+    "href": "notebooks/shiny.html",
+    "title": "Shinylive in Quarto example",
+    "section": "",
+    "text": "Embedded Shiny App\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| components: [viewer]\n#| viewerHeight: 480\n\n## file: app.py\nfrom shiny.express import input, render, ui\n\nui.input_slider(\"n\", \"N\", 0, 100, 20)\n\n\n@render.code\ndef txt():\n    return f\"n*2 is {input.n() * 2}\"\n\n\n\n\n Back to top"
+  }
+]
