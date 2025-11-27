@@ -1,0 +1,47 @@
+project:
+  type: website
+
+metadata:
+  year: 2025   # or whatever the current year is
+
+website:
+  favicon: images/lab.svg
+  title: "DAIOE"
+  navbar:
+    logo: images/lab.svg
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Explorer
+      - href: notebooks/shiny.qmd
+        text: shinylive
+      - href: notebooks/faq.qmd
+        text: FAQs
+  page-navigation: true
+  back-to-top-navigation: true
+
+
+  page-footer:
+    background: dark    
+    border: true
+    left: |
+      © {{< meta year >}} AI-Econ Lab<br><br>
+      All content licensed under<br><br>
+      <i class="bi bi-c-circle"></i>
+      <i class="bi bi-info-circle"></i>
+          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY 4.0</a>
+    right: |
+      <br>
+
+      This website was created with 
+      [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
+
+format:
+  html:
+    theme:
+      light: simplex
+      dark: darkly
+    css: styles.css
+    toc: true

@@ -1,0 +1,43 @@
+# RStudio user and history files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto local cache and build output
+/.quarto/
+/_site/
+/_freeze/
+
+# RStudio project files
+MyQwbsite.Rproj
+*.Rproj
+
+# Posit/RStudio deployment metadata
+/rsconnect/
+
+# renv local package caches
+renv/library/
+renv/staging/
+renv/sandbox/
+renv/python/
+
+.venv
+
+# Python build/runtime artifacts
+__pycache__/
+*.py[cod]
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+note.txt
+
+# OS-specific artifacts
+*.DS_Store
+Thumbs.db
+
+# Notebook checkpoints and Quarto exports
+**/.ipynb_checkpoints/
+**/*.quarto_ipynb

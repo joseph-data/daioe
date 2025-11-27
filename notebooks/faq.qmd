@@ -1,0 +1,40 @@
+---
+title: FAQs
+jupyter: python3
+eval: false
+page-layout: full
+---
+
+# *Does “exposure” mean automation or job loss?*
+
+> *No—DAIOE captures potential applicability of AI capabilities to occupational content. Whether this changes jobs, e.g., depends on adoption, complements, and organisational choices. Thus, the DAIOE is "agnostic" about job displacement, augmentation, and other potential effects.*
+
+# *Is it a forecast for AI adoption?*
+
+> *DAIOE captures potential applicability of AI in occupations. If, when and how AI will be applied in an occupation depends, e.g., on the cost of aquiring, adapting and using the technology in that occupation, the institutional setting (e.g., laws and regulations), etc.*
+
+# *What’s different about DAIOE versus prior indices (e.g., AIOE, patent-based)?*
+
+> *DAIOE is dynamic and grounded in measured AI benchmark progress. It tracks nine subdomains over time and explicitly adjusts for social interaction. Thus, it "unpacks" AI--enabling analysis of how different areas within AI expose occupational content to its abilities.*
+
+# *Which occupations tend to score highest?*
+
+> *Cognitive, non-physical roles with lower social-interaction intensity—often white-collar—tend to rank higher.*
+
+# *Do the data say anything about employment outcomes?*
+
+> *Across Denmark, Portugal, and Sweden, we find no systematic change in total headcount, but consistent up-skilling: higher DAIOE relates to higher high-/low-skill ratios and a shift from low-skill clerical toward high-skill white-collar work. Blue-collar associations average near zero, with heterogeneity by subdomain.*
+
+# *How do you handle interpersonal-heavy work?*
+
+> *We compute a social-skills index from O\*NET (importance × level across six social skills) and discount exposure accordingly.*
+
+# *What exactly are the nine AI subdomains?*
+
+> *Games (abstract strategy; real-time video); Vision (recognition, comprehension, generation); Language (reading comprehension, language modelling, translation, speech recognition).*
+
+# *Can I compare across countries or industries?*
+
+> *Yes. Combine occupation-level DAIOE with local workforce structures (firms, industries, regions) to assess exposure distributions.*
+>
+> *Is there a “genAI” version? We provide a generative-AI sub-index that combines language modelling and image generation.*
