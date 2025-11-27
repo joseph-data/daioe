@@ -4,6 +4,9 @@ project:
 
 metadata:
   year: 2025   # or whatever the current year is
+  
+execute: 
+  freeze: auto
 
 website:
   favicon: images/lab.svg
@@ -26,7 +29,7 @@ website:
 
   page-footer:
     background: dark    
-    border: true
+    border: false
     left: |
       © {{< meta year >}} AI-Econ Lab<br><br>
       All content licensed under<br><br>
