@@ -4,19 +4,24 @@ project:
 
 metadata:
   year: 2025   # or whatever the current year is
-  
+
 execute: 
   freeze: auto
 
 website:
-  favicon: images/lab.svg
+  favicon: assets/images/lab.svg
   title: "DAIOE"
+  repo-url: https://github.com/joseph-data/daioe
+  repo-actions: [edit, issue]
+  open-graph: true
   navbar:
-    logo: images/lab.svg
+    search: true
+    logo: assets/images/lab.svg
+    logo-alt: "AI-Econ Lab logo"
     pinned: true
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: about.qmd
         text: Explorer
       - href: notebooks/shiny.qmd
@@ -25,27 +30,39 @@ website:
         text: FAQs
   page-navigation: true
   back-to-top-navigation: true
-
-
   page-footer:
     background: dark    
     border: false
     left: |
+      Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org).
+    center: |
       © {{< meta year >}} AI-Econ Lab<br><br>
-      All content licensed under<br><br>
-      <i class="bi bi-c-circle"></i>
-      <i class="bi bi-info-circle"></i>
-          <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC BY 4.0</a>
     right: |
-      <br>
-
-      This website was created with 
-      [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 format:
   html:
     theme:
-      light: simplex
-      dark: darkly
-    css: styles.css
+      light:
+        - spacelab
+        - brand
+        - assets/stylesheets/theme.scss
+        - assets/stylesheets/projects.scss
+      dark:
+        - spacelab
+        - brand
+        - assets/stylesheets/theme.scss
+        - assets/stylesheets/projects.scss
+    # css: styles.css
     toc: true
+    lang: en-GB
+    date-format: 'dddd[, the] Do [of] MMMM, YYYY'
+    highlight-style: github
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    anchor-sections: true
+    email-obfuscation: javascript
+    link-external-newwindow: true
+
+lightbox: auto
