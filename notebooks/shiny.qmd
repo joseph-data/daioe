@@ -23,6 +23,6 @@ Embedded Shiny App
 
 
 ```{python}
-#| include: false
+#| echo: false
 {{< include "../scripts/01_test.py" >}}
 ```
