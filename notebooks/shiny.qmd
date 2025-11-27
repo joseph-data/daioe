@@ -15,6 +15,7 @@ Embedded Shiny App
 #| standalone: true
 #| components: [viewer]
 #| viewerHeight: 480
+#| column: screen
 
 ## file: app.py
 {{< include "../scripts/app.py" >}}
