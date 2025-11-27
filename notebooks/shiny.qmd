@@ -20,3 +20,9 @@ Embedded Shiny App
 ## file: app.py
 {{< include "../scripts/app.py" >}}
 ```
+
+
+```{python}
+#| include: false
+{{< include "../scripts/01_test.py" >}}
+```
