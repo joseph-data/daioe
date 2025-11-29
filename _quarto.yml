@@ -13,7 +13,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Alert** - This site is currently in a private development state and has not been published."
+    content: "**Alert** - This site is currently in a private development state and has not been published!"
     type: primary
     position: below-navbar
   favicon: assets/images/lab.svg
