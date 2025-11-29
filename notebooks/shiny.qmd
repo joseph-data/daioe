@@ -40,36 +40,7 @@ print("Trends")
 ```
 :::
 
-````{=html}
-<!-- ---
-title: Shinylive in Quarto example
-format: html
-execute: 
-  cache: false
-filters:
-  - shinylive
-page-layout: full
----
 
-
-Embedded Shiny App
-
-```{shinylive-python}
-#| standalone: true
-#| components: [viewer]
-#| viewerHeight: 480
-#| column: screen
-
-## file: app.py
-{{< include "../scripts/app.py" >}}
-```
-
-
-```{python}
-#| echo: false
-{{< include "../scripts/01_test.py" >}}
-``` -->
-````
 
 Data Source:
 
