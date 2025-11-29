@@ -4,7 +4,7 @@
     "href": "notebooks/shiny.html",
     "title": "Employment Changes by Level of AI Exposure",
     "section": "",
-    "text": "This section displays the relationship between the AI exposure and the number of persons employed. The occupation classification used is at 3-digit level of the SSYK 2012.\n\nChanges by Level of ExposureOccupation Changes\n\n\n\n\n\n\n\n\nHere I will add visual for occupations trend by age like this\n\n\nprint(\"Trends\")\n\nTrends\n\n\n\n\n\n\nData Source:\n\nEmployees at national level by occupation (3-digit SSYK 2012), industry SNI2007 (aggr. level), age and sex. BAS. Year 2020 - 2023 - SCB\nIndex Files - AI-Econ Lab\n\n\n\n\n Back to top"
+    "text": "This section displays the relationship between the AI exposure and the number of persons employed. The occupation classification used is at 3-digit level of the SSYK 2012.\n\nChanges by Level of ExposureOccupation Changes\n\n\n\n\n\n\n\n\nHere I will add visual for occupations trend by age like this\n\n\nprint(\"Trends\")\n\nTrends\n\n\n\n\n\nData Source:\n\nEmployees at national level by occupation (3-digit SSYK 2012), industry SNI2007 (aggr. level), age and sex. BAS. Year 2020 - 2023 - SCB\nIndex Files - AI-Econ Lab\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
