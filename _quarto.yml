@@ -9,6 +9,8 @@ execute:
   freeze: auto
 
 website:
+  google-analytics: 
+    tracking-id: "G-4PM1V5HKEK"
   announcement: 
     icon: info-circle
     dismissable: true
