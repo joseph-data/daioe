@@ -43,11 +43,11 @@ website:
     background: dark    
     border: true
     left: |
-      Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org).
+      <br>Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org)<br>
     center: |
-      © {{< meta year >}} AI-Econ Lab<br><br>
+      <br>© {{< meta year >}} AI-Econ Lab<br>
     right: |
-      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+      <br>License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)<br>
 
 format:
   html:
