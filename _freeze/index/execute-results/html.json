@@ -1,0 +1,17 @@
+{
+  "hash": "4c4db5693ecee8168b8aaf88ce53df54",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Dynamic AI Occupational Exposure Index\"\npage-layout: full\n---\n\n# Introduction\n\n## What it is? (in plain English)\n\nDAIOE tracks how advances in artificial intelligence change the potential impact of AI on different occupations over time. It’s a panel index (2010–) that updates annually and distinguishes between nine major AI subdomains (e.g., language modeling, image generation, speech recognition). Think of it as a moving barometer of where AI capabilities could matter most—not as a forecast of job loss or gain. The net employment effect, e.g., depends on how organisations adopt and apply AI.\n\n## Why it’s useful?\n\nBecause DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it \"unpacks\" AI--enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of \"unpacking\" exposure to AI.\n\n\n\n::: {.cell lightbox='{\"group\":\"cars\",\"description\":[\"This is the decription for first graph\",\"This is the decription for second graph\"]}'}\n\n```{.r .cell-code}\nplot(mtcars)\n```\n\n::: {.cell-output-display}\n![Caption for first plot](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![Caption for second plot](index_files/figure-html/unnamed-chunk-1-2.png){width=672}\n:::\n:::\n\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
