@@ -9,7 +9,7 @@ execute:
   freeze: auto
 
 website:
-  google-analytics: "G-4PM1V5HKEK"
+  google-analytics: "G-W37DRJ0QYC"
   announcement: 
     icon: info-circle
     dismissable: true
