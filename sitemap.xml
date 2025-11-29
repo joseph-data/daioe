@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joseph-data.github.io/daioe/index.html</loc>
-    <lastmod>2025-11-29T21:03:23.493Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joseph-data.github.io/daioe/notebooks/faq.html</loc>
-    <lastmod>2025-11-29T21:03:23.493Z</lastmod>
+    <loc>https://joseph-data.github.io/daioe/notebooks/shiny.html</loc>
+    <lastmod>2025-11-29T21:19:17.168Z</lastmod>
   </url>
   <url>
     <loc>https://joseph-data.github.io/daioe/about.html</loc>
-    <lastmod>2025-11-29T21:03:23.485Z</lastmod>
+    <lastmod>2025-11-29T21:19:17.166Z</lastmod>
   </url>
   <url>
-    <loc>https://joseph-data.github.io/daioe/notebooks/shiny.html</loc>
-    <lastmod>2025-11-29T21:03:23.493Z</lastmod>
+    <loc>https://joseph-data.github.io/daioe/index.html</loc>
+    <lastmod>2025-11-29T21:19:17.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/notebooks/faq.html</loc>
+    <lastmod>2025-11-29T21:19:17.167Z</lastmod>
   </url>
 </urlset>
