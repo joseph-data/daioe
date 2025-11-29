@@ -9,8 +9,14 @@ execute:
   freeze: auto
 
 website:
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - This site is currently in a private development state and has not been published publicly."
+    type: primary
+    position: below-navbar
   favicon: assets/images/lab.svg
-  title: "DAIOE"
+  title: "AI Exposure"
   repo-url: https://github.com/joseph-data/daioe
   repo-actions: [edit, issue]
   open-graph: true
@@ -22,17 +28,20 @@ website:
     left:
       - href: index.qmd
         text: "Home"
+        icon: house
       - href: about.qmd
-        text: Explorer
+        text: "Dashboard"
+        icon: bar-chart-line
       - href: notebooks/shiny.qmd
-        text: shinylive
+        text: Levels
       - href: notebooks/faq.qmd
         text: FAQs
+        icon: question-circle
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
     background: dark    
-    border: false
+    border: true
     left: |
       Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org).
     center: |
@@ -44,16 +53,9 @@ format:
   html:
     theme:
       light:
-        - spacelab
-        - brand
-        - assets/stylesheets/theme.scss
-        - assets/stylesheets/projects.scss
+        - flatly
       dark:
-        - spacelab
-        - brand
-        - assets/stylesheets/theme.scss
-        - assets/stylesheets/projects.scss
-    # css: styles.css
+        - slate
     toc: true
     lang: en-GB
     date-format: 'dddd[, the] Do [of] MMMM, YYYY'
@@ -64,5 +66,9 @@ format:
     anchor-sections: true
     email-obfuscation: javascript
     link-external-newwindow: true
+    link-external-icon: false
+    smooth-scroll: true
+    respect-user-color-scheme: true
+
 
 lightbox: auto

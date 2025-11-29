@@ -1,5 +1,11 @@
+# Ignore Git directory
 .git
 .git/**
+
+# Ignore Git subdirectories anywhere in the project
 **/.git/**
+**/.git
+
+# Ignore Quarto Git status files
 .gitstatus.*
 **/.gitstatus.*
