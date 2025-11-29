@@ -40,7 +40,7 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    background: dark    
+    # background: dark    
     border: true
     left: |
       <br>Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org)<br>
