@@ -1,0 +1,12 @@
+{
+  "hash": "d98bcdf14ebaa9864db7292328f38874",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\npage-layout: full\ntitle: \"Employment Changes by Age\"\n---\n\nThis section displays the relationship between the AI exposure and the number of persons employed. The occupation classification used is at 3-digit level of the SSYK 2012.\n\n::: panel-tabset\n## Changes by Level of Exposure\n\n```{=html}\n<style>\n  html, body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n  }\n\n  .fullpage-frame {\n    width: 100%;\n    height: 100vh; /* full viewport height */\n    border: none;\n  }\n</style>\n\n<iframe \n  class=\"fullpage-frame\"\n  src=\"http://localhost:34325/\">\n</iframe>\n```\n\n## Occupation Changes\n\nHere I will add visual for occupations trend by age like this\n\n![](images/paste-1.png)\n\n::: {#d726d2c7 .cell execution_count=1}\n``` {.python .cell-code}\nprint(\"Trends\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nTrends\n```\n:::\n:::\n\n\n:::\n\n\n\nData Source:\n\n1.  [Employees at national level by occupation (3-digit SSYK 2012), industry SNI2007 (aggr. level), age and sex. BAS. Year 2020 - 2023](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__AM__AM0208__AM0208B/YREG61BAS/) - SCB\n2.  [Index Files](https://drive.google.com/drive/folders/16PwsyGY28iXnsGOIY7dzN6hDwwxIuHRV) - AI-Econ Lab\n\n",
+    "supporting": [
+      "03_occupation_by_exposure_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -4,3 +4,9 @@ title: "Overview"
 ---
 
 This section introduces the coming sections and Analysis done.
+
+# Dashboard
+
+# Employment Changes by AI
+
+# Vacancy changes by AI

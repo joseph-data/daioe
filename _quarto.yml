@@ -55,9 +55,9 @@ website:
       - text: "Dashboard"
         href: notebooks/01_dashboard.qmd
       - text: "Employment Changes by AI Exposure"
-        href: notebooks/shiny.qmd
-      - text: "Vacancy Changes by AI Exposure"
-        href: notebooks/shiny.qmd
+        href: notebooks/02_employment_change.qmd
+      - text: "Occupations Employed by Age"
+        href: notebooks/03_occupation_by_exposure.qmd
 
 
   page-navigation: true
@@ -90,6 +90,7 @@ format:
     link-external-icon: false
     smooth-scroll: true
     respect-user-color-scheme: true
+    crossrefs-hover: true
 
 
 lightbox: auto
