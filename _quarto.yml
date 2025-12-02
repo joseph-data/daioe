@@ -38,7 +38,7 @@ website:
         menu:
           - text: "Ask a Question"
             icon: "chat-right-text"
-            href: "https://github.com/quarto-dev/quarto-cli/discussions"
+            href: "https://github.com/joseph-data/daioe_dataset/discussions"
           - text: "FAQs"
             icon: "question-circle"
             href: notebooks/faq.qmd
