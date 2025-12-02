@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joseph-data.github.io/daioe/notebooks/shiny.html</loc>
-    <lastmod>2025-12-02T01:49:44.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joseph-data.github.io/daioe/notebooks/faq.html</loc>
-    <lastmod>2025-12-02T01:49:44.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joseph-data.github.io/daioe/index.html</loc>
-    <lastmod>2025-12-02T01:49:44.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joseph-data.github.io/daioe/about.html</loc>
-    <lastmod>2025-12-02T01:49:44.658Z</lastmod>
+    <loc>https://joseph-data.github.io/daioe/notebooks/02_employment_change.html</loc>
+    <lastmod>2025-12-02T04:39:57.745Z</lastmod>
   </url>
   <url>
     <loc>https://joseph-data.github.io/daioe/notebooks/01_dashboard.html</loc>
-    <lastmod>2025-12-02T01:49:44.659Z</lastmod>
+    <lastmod>2025-12-02T04:39:57.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/about.html</loc>
+    <lastmod>2025-12-02T04:39:57.744Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/index.html</loc>
+    <lastmod>2025-12-02T04:39:57.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/notebooks/faq.html</loc>
+    <lastmod>2025-12-02T04:39:57.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/notebooks/03_occupation_by_exposure.html</loc>
+    <lastmod>2025-12-02T04:39:57.745Z</lastmod>
   </url>
 </urlset>

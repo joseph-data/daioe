@@ -1,21 +1,36 @@
 [
   {
-    "objectID": "notebooks/shiny.html",
-    "href": "notebooks/shiny.html",
+    "objectID": "notebooks/02_employment_change.html",
+    "href": "notebooks/02_employment_change.html",
     "title": "Employment Changes by Level of AI Exposure",
     "section": "",
-    "text": "This section displays the relationship between the AI exposure and the number of persons employed. The occupation classification used is at 3-digit level of the SSYK 2012.\n\nChanges by Level of ExposureOccupation Changes\n\n\n\n\n\n\n\n\nHere I will add visual for occupations trend by age like this\n\n\nprint(\"Trends\")\n\nTrends\n\n\n\n\n\nData Source:\n\nEmployees at national level by occupation (3-digit SSYK 2012), industry SNI2007 (aggr. level), age and sex. BAS. Year 2020 - 2023 - SCB\nIndex Files - AI-Econ Lab\n\n\n\n\n Back to top",
+    "text": "Back to top",
     "crumbs": [
       "Explore",
       "Employment Changes by AI Exposure"
     ]
   },
   {
-    "objectID": "notebooks/faq.html",
-    "href": "notebooks/faq.html",
-    "title": "FAQs",
+    "objectID": "notebooks/01_dashboard.html",
+    "href": "notebooks/01_dashboard.html",
+    "title": "DAIOE Dashboard",
     "section": "",
-    "text": "Does “exposure” mean automation or job loss?\n\nNo—DAIOE captures potential applicability of AI capabilities to occupational content. Whether this changes jobs, e.g., depends on adoption, complements, and organisational choices. Thus, the DAIOE is “agnostic” about job displacement, augmentation, and other potential effects.\n\n\n\nIs it a forecast for AI adoption?\n\nDAIOE captures potential applicability of AI in occupations. If, when and how AI will be applied in an occupation depends, e.g., on the cost of aquiring, adapting and using the technology in that occupation, the institutional setting (e.g., laws and regulations), etc.\n\n\n\nWhat’s different about DAIOE versus prior indices (e.g., AIOE, patent-based)?\n\nDAIOE is dynamic and grounded in measured AI benchmark progress. It tracks nine subdomains over time and explicitly adjusts for social interaction. Thus, it “unpacks” AI–enabling analysis of how different areas within AI expose occupational content to its abilities.\n\n\n\nWhich occupations tend to score highest?\n\nCognitive, non-physical roles with lower social-interaction intensity—often white-collar—tend to rank higher.\n\n\n\nDo the data say anything about employment outcomes?\n\nAcross Denmark, Portugal, and Sweden, we find no systematic change in total headcount, but consistent up-skilling: higher DAIOE relates to higher high-/low-skill ratios and a shift from low-skill clerical toward high-skill white-collar work. Blue-collar associations average near zero, with heterogeneity by subdomain.\n\n\n\nHow do you handle interpersonal-heavy work?\n\nWe compute a social-skills index from O*NET (importance × level across six social skills) and discount exposure accordingly.\n\n\n\nWhat exactly are the nine AI subdomains?\n\nGames (abstract strategy; real-time video); Vision (recognition, comprehension, generation); Language (reading comprehension, language modelling, translation, speech recognition).\n\n\n\nCan I compare across countries or industries?\n\nYes. Combine occupation-level DAIOE with local workforce structures (firms, industries, regions) to assess exposure distributions.\nIs there a “genAI” version? We provide a generative-AI sub-index that combines language modelling and image generation.\n\n\n\n\n\n Back to top"
+    "text": "Back to top",
+    "crumbs": [
+      "Explore",
+      "Dashboard"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This section introduces the coming sections and Analysis done.\n\nDashboard\n\n\nEmployment Changes by AI\n\n\nVacancy changes by AI\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Explore",
+      "Overview"
+    ]
   },
   {
     "objectID": "index.html",
@@ -81,25 +96,21 @@
     "text": "Footnotes\n\n\nEngberg et al. (2025)↩︎"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Overview",
+    "objectID": "notebooks/faq.html",
+    "href": "notebooks/faq.html",
+    "title": "FAQs",
     "section": "",
-    "text": "This section introduces the coming sections and Analysis done.\n\n\n\n Back to top",
-    "crumbs": [
-      "Explore",
-      "Overview"
-    ]
+    "text": "Does “exposure” mean automation or job loss?\n\nNo—DAIOE captures potential applicability of AI capabilities to occupational content. Whether this changes jobs, e.g., depends on adoption, complements, and organisational choices. Thus, the DAIOE is “agnostic” about job displacement, augmentation, and other potential effects.\n\n\n\nIs it a forecast for AI adoption?\n\nDAIOE captures potential applicability of AI in occupations. If, when and how AI will be applied in an occupation depends, e.g., on the cost of aquiring, adapting and using the technology in that occupation, the institutional setting (e.g., laws and regulations), etc.\n\n\n\nWhat’s different about DAIOE versus prior indices (e.g., AIOE, patent-based)?\n\nDAIOE is dynamic and grounded in measured AI benchmark progress. It tracks nine subdomains over time and explicitly adjusts for social interaction. Thus, it “unpacks” AI–enabling analysis of how different areas within AI expose occupational content to its abilities.\n\n\n\nWhich occupations tend to score highest?\n\nCognitive, non-physical roles with lower social-interaction intensity—often white-collar—tend to rank higher.\n\n\n\nDo the data say anything about employment outcomes?\n\nAcross Denmark, Portugal, and Sweden, we find no systematic change in total headcount, but consistent up-skilling: higher DAIOE relates to higher high-/low-skill ratios and a shift from low-skill clerical toward high-skill white-collar work. Blue-collar associations average near zero, with heterogeneity by subdomain.\n\n\n\nHow do you handle interpersonal-heavy work?\n\nWe compute a social-skills index from O*NET (importance × level across six social skills) and discount exposure accordingly.\n\n\n\nWhat exactly are the nine AI subdomains?\n\nGames (abstract strategy; real-time video); Vision (recognition, comprehension, generation); Language (reading comprehension, language modelling, translation, speech recognition).\n\n\n\nCan I compare across countries or industries?\n\nYes. Combine occupation-level DAIOE with local workforce structures (firms, industries, regions) to assess exposure distributions.\nIs there a “genAI” version? We provide a generative-AI sub-index that combines language modelling and image generation.\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "notebooks/01_dashboard.html",
-    "href": "notebooks/01_dashboard.html",
-    "title": "DAIOE Dashboard",
+    "objectID": "notebooks/03_occupation_by_exposure.html",
+    "href": "notebooks/03_occupation_by_exposure.html",
+    "title": "Employed by Occupations, Age, Year",
     "section": "",
     "text": "Back to top",
     "crumbs": [
       "Explore",
-      "Dashboard"
+      "Occupations Employed by Age"
     ]
   }
 ]
