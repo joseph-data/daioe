@@ -26,7 +26,7 @@
     "href": "about.html",
     "title": "Overview",
     "section": "",
-    "text": "This section introduces the coming sections and Analysis done.\n\nDashboard\n\n\nEmployment Changes by AI\n\n\nVacancy changes by AI\n\n\n\n\n Back to top",
+    "text": "This section introduces the coming sections and Analysis done.\nI add for each section\n\ndata sources (Links, and integration)\nworkflow design\nmanual on how to use the Apps\n\n\nDashboard\n\n\nEmployment Changes by AI\n\n\nVacancy changes by AI\n\n\n\n\n Back to top",
     "crumbs": [
       "Explore",
       "Overview"
@@ -51,14 +51,7 @@
     "href": "index.html#why-its-useful",
     "title": "Dynamic AI Occupational Exposure Index",
     "section": "Why it’s useful?",
-    "text": "Why it’s useful?\nBecause DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it “unpacks” AI–enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of “unpacking” exposure to AI."
-  },
-  {
-    "objectID": "index.html#daioe-at-a-glance",
-    "href": "index.html#daioe-at-a-glance",
-    "title": "Dynamic AI Occupational Exposure Index",
-    "section": "DAIOE-at-a-glance",
-    "text": "DAIOE-at-a-glance\n\nCoverage: 2010– (currently, 2023)\nAI subdomains: 9, related to games, language, and images\nOccupations: ISCO-08, SOC2010 and SSYK2012\nGranularity: virtually all occupations; sub-indices by subdomain.\nAdd-ons: one overall and another generative AI version.\nTotal number of indices: 11 (1 overall; 1 genAI; 9 sub-indices)\nMeaning: Exposure = potential applicability of AI capabilities to occupational content (not adoption or automation probability)."
+    "text": "Why it’s useful?\nBecause DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it “unpacks” AI–enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of “unpacking” exposure to AI.\n\n\n\n\n\n\nNoteDAIOE at a glance\n\n\n\n\nCoverage: 2010– (currently, 2023)\nAI subdomains: 9, related to games, language, and images\nOccupations: ISCO-08, SOC2010 and SSYK2012\nGranularity: virtually all occupations; sub-indices by subdomain.\nAdd-ons: one overall and another generative AI version.\nTotal number of indices: 11 (1 overall; 1 genAI; 9 sub-indices)\nMeaning: Exposure = potential applicability of AI capabilities to occupational content (not adoption or automation probability)."
   },
   {
     "objectID": "index.html#technical-specification-short",
@@ -79,21 +72,14 @@
     "href": "index.html#ai-sub-domains",
     "title": "Dynamic AI Occupational Exposure Index",
     "section": "AI sub-domains",
-    "text": "AI sub-domains\n\n\n\n\n\n\nTipAI Subdomains\n\n\n\n\n\n\n♟️ Abstract strategy games — tests long-horizon planning & search.\n🎮 Real-time video games — adaptive control under time pressure.\n🖼️🔎 Image recognition — identifying objects & patterns in images.\n🧩🖼️ Image comprehension — reasoning about what an image depicts.\n🖌️🖼️ Image generation — creating or editing visual content.\n📖 Reading comprehension — extracting and using information from text.\n✍️🤖 Language modelling — generating and transforming text.\n🌐🔤 Translation — converting meaning across languages.\n🗣️🎙️ Speech recognition — turning audio into text reliably."
+    "text": "AI sub-domains\n\n♟️ Abstract strategy games — tests long-horizon planning & search.\n🎮 Real-time video games — adaptive control under time pressure.\n🖼️🔎 Image recognition — identifying objects & patterns in images.\n🧩🖼️ Image comprehension — reasoning about what an image depicts.\n🖌️🖼️ Image generation — creating or editing visual content.\n📖 Reading comprehension — extracting and using information from text.\n✍️🤖 Language modelling — generating and transforming text.\n🌐🔤 Translation — converting meaning across languages.\n🗣️🎙️ Speech recognition — turning audio into text reliably."
   },
   {
-    "objectID": "index.html#links-downloads-and-readme",
-    "href": "index.html#links-downloads-and-readme",
+    "objectID": "index.html#links",
+    "href": "index.html#links",
     "title": "Dynamic AI Occupational Exposure Index",
-    "section": "Links, downloads and “README”",
-    "text": "Links, downloads and “README”\nThe original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al. (2025)1.\nSuggested citation: Engberg et al. (2024)\nDAIOE data can be downloaded ➡️ Github (2010 to latest available year) and can be cited as Nyajuoga (n.d.)."
-  },
-  {
-    "objectID": "index.html#footnotes",
-    "href": "index.html#footnotes",
-    "title": "Dynamic AI Occupational Exposure Index",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nEngberg et al. (2025)↩︎"
+    "section": "Links",
+    "text": "Links\nThe original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al. (2025).\nSuggested citation: Engberg et al. (2024)\n\nEngberg, Erik, Holger Gorg, Magnus Lodefalk, Farrukh Javed, Martin Längkvist, Natália P. Monteiro, Hildegunn Kyvik Nordås, Sarah Schroeder, and Aili Tang. 2024. ‘AI Unboxed and Jobs: A Novel Measure and Firm-Level Evidence from Three Countries’. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4691172.\nDAIOE data can be downloaded ➡️ Github (2010 to latest available year) and its full documentation specified."
   },
   {
     "objectID": "notebooks/faq.html",
