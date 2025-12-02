@@ -62,6 +62,7 @@ website:
 
   page-navigation: true
   back-to-top-navigation: true
+  bread-crumbs: true
   page-footer:
     # background: dark    
     border: True
