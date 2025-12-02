@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://joseph-data.github.io/daioe/notebooks/shiny.html</loc>
-    <lastmod>2025-11-29T22:52:37.542Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joseph-data.github.io/daioe/about.html</loc>
-    <lastmod>2025-11-29T22:52:37.540Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joseph-data.github.io/daioe/index.html</loc>
-    <lastmod>2025-11-29T22:52:37.541Z</lastmod>
+    <lastmod>2025-12-02T00:13:56.787Z</lastmod>
   </url>
   <url>
     <loc>https://joseph-data.github.io/daioe/notebooks/faq.html</loc>
-    <lastmod>2025-11-29T22:52:37.541Z</lastmod>
+    <lastmod>2025-12-02T00:13:56.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/index.html</loc>
+    <lastmod>2025-12-02T00:13:56.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/about.html</loc>
+    <lastmod>2025-12-02T00:13:56.785Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joseph-data.github.io/daioe/notebooks/01_dashboard.html</loc>
+    <lastmod>2025-12-02T00:13:56.786Z</lastmod>
   </url>
 </urlset>

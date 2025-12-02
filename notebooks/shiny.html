@@ -64,6 +64,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../notebooks/01_dashboard.html" rel="prev">
 <link href="../assets/images/lab.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -77,9 +78,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-597958c53c93a607afca12fd375c57ed.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c762866b9ad8b45731008a7ae9db594e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-36b4030b202011e0c5751344406faf6d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-c762866b9ad8b45731008a7ae9db594e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c97ba64849489c4c819193090ef3dfa2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-48327f39eb8087966557710a2f9a75d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c97ba64849489c4c819193090ef3dfa2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
@@ -131,7 +132,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <meta property="og:image:width" content="548">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -329,26 +330,49 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> <i class="bi bi-bar-chart-line" role="img">
+    <a class="nav-link active" href="../about.html" aria-current="page"> <i class="bi bi-bar-chart-line" role="img">
 </i> 
-<span class="menu-text">Dashboard</span></a>
+<span class="menu-text">Explore</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../notebooks/shiny.html" aria-current="page"> 
-<span class="menu-text">Levels</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../notebooks/faq.html"> <i class="bi bi-question-circle" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Help</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-help">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/quarto-dev/quarto-cli/discussions"><i class="bi bi-chat-right-text" role="img">
 </i> 
-<span class="menu-text">FAQs</span></a>
+ <span class="dropdown-text">Ask a Question</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../notebooks/faq.html"><i class="bi bi-question-circle" role="img">
+</i> 
+ <span class="dropdown-text">FAQs</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/shiny.html">Employment Changes by AI Exposure</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
   <div id="quarto-announcement" data-announcement-id="78e0288145c1bef7875ff87f26e78e9a" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Alert</strong> - This site is currently in a private development state and has not been published!</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
@@ -356,12 +380,43 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notebooks/01_dashboard.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dashboard</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notebooks/shiny.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Employment Changes by AI Exposure</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notebooks/shiny.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vacancy Changes by AI Exposure</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -371,7 +426,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-right">
 
     
   
@@ -844,6 +899,15 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
     }
   });
   </script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="../notebooks/01_dashboard.html" class="pagination-link" aria-label="Dashboard">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Dashboard</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
