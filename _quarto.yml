@@ -9,6 +9,7 @@ execute:
   freeze: auto
 
 website:
+  reader-mode: true
   google-analytics: "G-W37DRJ0QYC"
   announcement: 
     icon: info-circle
@@ -31,13 +32,34 @@ website:
         text: "Home"
         icon: house
       - href: about.qmd
-        text: "Dashboard"
+        text: "Explore"
         icon: bar-chart-line
-      - href: notebooks/shiny.qmd
-        text: Levels
-      - href: notebooks/faq.qmd
-        text: FAQs
-        icon: question-circle
+      - text: "Help"
+        menu:
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/quarto-dev/quarto-cli/discussions"
+          - text: "FAQs"
+            icon: "question-circle"
+            href: notebooks/faq.qmd
+  sidebar:
+    # logo: assets/images/lab.svg
+    id: explore
+    collapse-level: 3
+    title: "Explore"
+    style: docked
+    background: light
+    contents: 
+      - text: "Overview"
+        href: about.qmd
+      - text: "Dashboard"
+        href: notebooks/01_dashboard.qmd
+      - text: "Employment Changes by AI Exposure"
+        href: notebooks/shiny.qmd
+      - text: "Vacancy Changes by AI Exposure"
+        href: notebooks/shiny.qmd
+
+
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
@@ -53,10 +75,8 @@ website:
 format:
   html:
     theme:
-      light:
-        - flatly
-      dark:
-        - slate
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
     toc: true
     lang: en-GB
     date-format: 'dddd[, the] Do [of] MMMM, YYYY'

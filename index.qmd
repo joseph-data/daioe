@@ -1,9 +1,12 @@
 ---
 title: "Dynamic AI Occupational Exposure Index"
 page-layout: full
+repo-actions: false
+format:
+  html: 
+    grid:
+      body-width: 1000px
 ---
-
-# Introduction
 
 ## What it is? (in plain English)
 
@@ -13,49 +16,75 @@ DAIOE tracks how advances in artificial intelligence change the potential impact
 
 Because DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it "unpacks" AI--enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of "unpacking" exposure to AI.
 
-::: {.panel-tabset}
-## R
+## DAIOE-at-a-glance
 
-``` {.r}
-fizz_buzz <- function(fbnums = 1:50) {
-  output <- dplyr::case_when(
-    fbnums %% 15 == 0 ~ "FizzBuzz",
-    fbnums %% 3 == 0 ~ "Fizz",
-    fbnums %% 5 == 0 ~ "Buzz",
-    TRUE ~ as.character(fbnums)
-  )
-  print(output)
-}
-```
+-   **Coverage**: 2010– (currently, 2023)
 
-## Python
+-   **AI subdomains**: 9, related to games, language, and images
 
-``` {.python}
-def fizz_buzz(num):
-  if num % 15 == 0:
-    print("FizzBuzz")
-  elif num % 5 == 0:
-    print("Buzz")
-  elif num % 3 == 0:
-    print("Fizz")
-  else:
-    print(num)
-```
+-   **Occupations**: ISCO-08, SOC2010 and SSYK2012
 
+-   **Granularity**: virtually all occupations; sub-indices by subdomain.
+
+-   **Add-ons**: one overall and another generative AI version.
+
+-   **Total number of indices**: 11 (1 overall; 1 genAI; 9 sub-indices)
+
+-   **Meaning**: Exposure = potential applicability of AI capabilities to occupational content (not adoption or automation probability).
+
+## Technical specification (short)
+
+Construction (overview)
+
+DAIOE combines
+
+1.  AI capability progress by subdomain with
+
+2.  Occupational work content.
+
+First, we assemble yearly measures of AI performance across nine applications (e.g., language, vision, speech), drawing on standardised evaluation benchmarks and leaderboards. Second, we map those AI abilities to the skills and abilities that define each occupation. Finally, for each occupation–year, we take a weighted aggregation (a “match” between capability growth and occupational requirements) to form the exposure index and its nine sub-indices as well as two off-springs (the genAI- and non-genAI versions).
+
+## Formal details
+
+### **Capturing AI capability progress**
+
+We track yearly progress in nine AI subdomains—games (abstract strategy, real-time), vision (recognition, comprehension, generation), language (reading comprehension, language modelling, translation), and speech recognition—using 140 benchmarks that have been used to test model performance in AI research (sources: EFF and Papers With Code). For each benchmark, we derive a frontier curve, indicating the state-of-the-art at a given time. Metrics are harmonised so changes are comparable, then summarised each year to capture shifts in the technical frontier.
+
+### **From capabilities to occupations**
+
+Subdomain progress is mapped to 52 O\*NET abilities via the [Felten et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/pandp.20181021) 9×52 matrix. Ability-level exposure is aggregated to occupations with O\*NET importance×level weights, yielding an annual exposure change and nine parallel sub-indices. To pay attention to interpersonal roles, we apply a calibrated social-skills discount and then cumulate the annual exposure changes from 2010– to form the DAIOE panel.
+
+### **Interpretation**
+
+DAIOE measures the potential applicability of AI to occupational content, over time—not adoption or automation probabilities. Real-world effects, e.g., depend on the development and adoption of AI applications, complementary investments, organisational choices, and policy.
+
+## AI sub-domains
+
+::: {.callout-tip title="AI Subdomains" collapse="false" icon="false"}
+1.  ♟️ Abstract strategy games — tests long-horizon planning & search.
+
+2.  🎮 Real-time video games — adaptive control under time pressure.
+
+3.  🖼️🔎 Image recognition — identifying objects & patterns in images.
+
+4.  🧩🖼️ Image comprehension — reasoning about what an image depicts.
+
+5.  🖌️🖼️ Image generation — creating or editing visual content.
+
+6.  📖 Reading comprehension — extracting and using information from text.
+
+7.  ✍️🤖 Language modelling — generating and transforming text.
+
+8.  🌐🔤 Translation — converting meaning across languages.
+
+9.  🗣️🎙️ Speech recognition — turning audio into text reliably.
 :::
 
+<!-- ::: {.get-started .alt-background}
+::: {.content-block .py-5 .grid}
+::: {.g-start-4 .g-col-6 .g-start-md-5 .g-col-md-3 .pt-1}
+[Get Started](notebooks/01_dashboard.qmd){.btn-action-primary  .btn-action .btn .btn-lg .w-100 role="button"}
 
-<!-- ```{r}
-#| fig-cap: 
-#|   - Caption for first plot
-#|   - Caption for second plot
-#| lightbox: 
-#|   group: cars
-#|   description: 
-#|     - This is the decription for first graph
-#|     - This is the decription for second graph
-plot(mtcars)
-plot(cars)
-``` -->
-
-
+:::
+:::
+::: -->

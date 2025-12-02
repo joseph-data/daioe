@@ -1,0 +1,29 @@
+---
+page-layout: full
+title: "DAIOE Dashboard"
+format:
+  html: 
+    grid:
+      body-width: 2000px
+---
+
+```{=html}
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .fullpage-frame {
+    width: 100%;
+    height: 100vh; /* full viewport height */
+    border: none;
+  }
+</style>
+
+<iframe 
+  class="fullpage-frame"
+  src="https://joseph-data-daioe.hf.space">
+</iframe>
+```
