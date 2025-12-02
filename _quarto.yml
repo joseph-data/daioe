@@ -18,7 +18,7 @@ website:
     type: primary
     position: below-navbar
   favicon: assets/images/lab.svg
-  title: "AI Exposure"
+  title: "DAIOE"
   repo-url: https://github.com/joseph-data/daioe
   repo-actions: [edit, issue]
   open-graph: true
@@ -64,7 +64,7 @@ website:
   back-to-top-navigation: true
   page-footer:
     # background: dark    
-    border: true
+    border: True
     left: |
       <br>Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org)<br>
     center: |

@@ -5,7 +5,11 @@ repo-actions: false
 format:
   html: 
     grid:
-      body-width: 1000px
+      body-width: 900px
+      margin-width: 250px
+# reference-location: margin
+# citation-location: margin
+bibliography: references.bib
 ---
 
 ## What it is? (in plain English)
@@ -46,15 +50,15 @@ First, we assemble yearly measures of AI performance across nine applications (e
 
 ## Formal details
 
-### **Capturing AI capability progress**
+### Capturing AI capability progress
 
 We track yearly progress in nine AI subdomains—games (abstract strategy, real-time), vision (recognition, comprehension, generation), language (reading comprehension, language modelling, translation), and speech recognition—using 140 benchmarks that have been used to test model performance in AI research (sources: EFF and Papers With Code). For each benchmark, we derive a frontier curve, indicating the state-of-the-art at a given time. Metrics are harmonised so changes are comparable, then summarised each year to capture shifts in the technical frontier.
 
-### **From capabilities to occupations**
+### From capabilities to occupations
 
 Subdomain progress is mapped to 52 O\*NET abilities via the [Felten et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/pandp.20181021) 9×52 matrix. Ability-level exposure is aggregated to occupations with O\*NET importance×level weights, yielding an annual exposure change and nine parallel sub-indices. To pay attention to interpersonal roles, we apply a calibrated social-skills discount and then cumulate the annual exposure changes from 2010– to form the DAIOE panel.
 
-### **Interpretation**
+### Interpretation
 
 DAIOE measures the potential applicability of AI to occupational content, over time—not adoption or automation probabilities. Real-world effects, e.g., depend on the development and adoption of AI applications, complementary investments, organisational choices, and policy.
 
@@ -80,11 +84,12 @@ DAIOE measures the potential applicability of AI to occupational content, over t
 9.  🗣️🎙️ Speech recognition — turning audio into text reliably.
 :::
 
-<!-- ::: {.get-started .alt-background}
-::: {.content-block .py-5 .grid}
-::: {.g-start-4 .g-col-6 .g-start-md-5 .g-col-md-3 .pt-1}
-[Get Started](notebooks/01_dashboard.qmd){.btn-action-primary  .btn-action .btn .btn-lg .w-100 role="button"}
+## Links, downloads and "README"
 
-:::
-:::
-::: -->
+The original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al. (2025)[^1].
+
+[^1]: [Engberg et al. (2025)](https://drive.google.com/file/d/1hHIGmXC8j0GDDkCJuZ76ub63Hq7CgRbS/view)
+
+Suggested citation: @engberg2024
+
+DAIOE data can be downloaded ➡️ [Github](https://github.com/joseph-data/daioe_dataset) (2010 to latest available year) and can be cited as @nyajuoga.

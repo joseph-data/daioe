@@ -6,6 +6,7 @@
 .RData
 .Ruserdata
 .Rapp.history
+.Rprofile
 
 ########################################
 # RStudio project files
