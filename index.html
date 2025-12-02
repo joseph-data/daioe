@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dynamic AI Occupational Exposure Index – AI Exposure</title>
+<title>Dynamic AI Occupational Exposure Index – DAIOE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -42,9 +62,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-597958c53c93a607afca12fd375c57ed.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-247effc537d68ad058a20fda7675abd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7b814bba375a11eb441bf4e2516b4953.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-247effc537d68ad058a20fda7675abd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5c73a2c68e9686ab883f161281d83dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7496c7d32060726c9c250dfec73ce1aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5c73a2c68e9686ab883f161281d83dbe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -85,9 +105,9 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Dynamic AI Occupational Exposure Index – AI Exposure">
+<meta property="og:title" content="Dynamic AI Occupational Exposure Index – DAIOE">
 <meta property="og:description" content="">
-<meta property="og:site_name" content="AI Exposure">
+<meta property="og:site_name" content="DAIOE">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -273,7 +293,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
     <img src="./assets/images/lab.svg" alt="AI-Econ Lab logo" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">AI Exposure</span>
+    <span class="navbar-title">DAIOE</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -340,11 +360,12 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
   <li><a href="#technical-specification-short" id="toc-technical-specification-short" class="nav-link" data-scroll-target="#technical-specification-short">Technical specification (short)</a></li>
   <li><a href="#formal-details" id="toc-formal-details" class="nav-link" data-scroll-target="#formal-details">Formal details</a>
   <ul class="collapse">
-  <li><a href="#capturing-ai-capability-progress" id="toc-capturing-ai-capability-progress" class="nav-link" data-scroll-target="#capturing-ai-capability-progress"><strong>Capturing AI capability progress</strong></a></li>
-  <li><a href="#from-capabilities-to-occupations" id="toc-from-capabilities-to-occupations" class="nav-link" data-scroll-target="#from-capabilities-to-occupations"><strong>From capabilities to occupations</strong></a></li>
-  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation"><strong>Interpretation</strong></a></li>
+  <li><a href="#capturing-ai-capability-progress" id="toc-capturing-ai-capability-progress" class="nav-link" data-scroll-target="#capturing-ai-capability-progress">Capturing AI capability progress</a></li>
+  <li><a href="#from-capabilities-to-occupations" id="toc-from-capabilities-to-occupations" class="nav-link" data-scroll-target="#from-capabilities-to-occupations">From capabilities to occupations</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
   </ul></li>
   <li><a href="#ai-sub-domains" id="toc-ai-sub-domains" class="nav-link" data-scroll-target="#ai-sub-domains">AI sub-domains</a></li>
+  <li><a href="#links-downloads-and-readme" id="toc-links-downloads-and-readme" class="nav-link" data-scroll-target="#links-downloads-and-readme">Links, downloads and “README”</a></li>
   </ul>
 </nav>
     </div>
@@ -404,15 +425,15 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <section id="formal-details" class="level2">
 <h2 class="anchored" data-anchor-id="formal-details">Formal details</h2>
 <section id="capturing-ai-capability-progress" class="level3">
-<h3 class="anchored" data-anchor-id="capturing-ai-capability-progress"><strong>Capturing AI capability progress</strong></h3>
+<h3 class="anchored" data-anchor-id="capturing-ai-capability-progress">Capturing AI capability progress</h3>
 <p>We track yearly progress in nine AI subdomains—games (abstract strategy, real-time), vision (recognition, comprehension, generation), language (reading comprehension, language modelling, translation), and speech recognition—using 140 benchmarks that have been used to test model performance in AI research (sources: EFF and Papers With Code). For each benchmark, we derive a frontier curve, indicating the state-of-the-art at a given time. Metrics are harmonised so changes are comparable, then summarised each year to capture shifts in the technical frontier.</p>
 </section>
 <section id="from-capabilities-to-occupations" class="level3">
-<h3 class="anchored" data-anchor-id="from-capabilities-to-occupations"><strong>From capabilities to occupations</strong></h3>
+<h3 class="anchored" data-anchor-id="from-capabilities-to-occupations">From capabilities to occupations</h3>
 <p>Subdomain progress is mapped to 52 O*NET abilities via the <a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20181021">Felten et al.&nbsp;(2018)</a> 9×52 matrix. Ability-level exposure is aggregated to occupations with O*NET importance×level weights, yielding an annual exposure change and nine parallel sub-indices. To pay attention to interpersonal roles, we apply a calibrated social-skills discount and then cumulate the annual exposure changes from 2010– to form the DAIOE panel.</p>
 </section>
 <section id="interpretation" class="level3">
-<h3 class="anchored" data-anchor-id="interpretation"><strong>Interpretation</strong></h3>
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
 <p>DAIOE measures the potential applicability of AI to occupational content, over time—not adoption or automation probabilities. Real-world effects, e.g., depend on the development and adoption of AI applications, complementary investments, organisational choices, and policy.</p>
 </section>
 </section>
@@ -444,19 +465,31 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<!-- ::: {.get-started .alt-background}
-::: {.content-block .py-5 .grid}
-::: {.g-start-4 .g-col-6 .g-start-md-5 .g-col-md-3 .pt-1}
-[Get Started](notebooks/01_dashboard.qmd){.btn-action-primary  .btn-action .btn .btn-lg .w-100 role="button"}
+</section>
+<section id="links-downloads-and-readme" class="level2">
+<h2 class="anchored" data-anchor-id="links-downloads-and-readme">Links, downloads and “README”</h2>
+<p>The original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al.&nbsp;(2025)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Suggested citation: <span class="citation" data-cites="engberg2024">Engberg et al. (<a href="#ref-engberg2024" role="doc-biblioref">2024</a>)</span></p>
+<p>DAIOE data can be downloaded ➡️ <a href="https://github.com/joseph-data/daioe_dataset">Github</a> (2010 to latest available year) and can be cited as <span class="citation" data-cites="nyajuoga">Nyajuoga (<a href="#ref-nyajuoga" role="doc-biblioref">n.d.</a>)</span>.</p>
 
-:::
-:::
-::: -->
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-engberg2024" class="csl-entry" role="listitem">
+Engberg, Erik, Holger Gorg, Magnus Lodefalk, Farrukh Javed, Martin Längkvist, Natália P. Monteiro, Hildegunn Kyvik Nordås, Sarah Schroeder, and Aili Tang. 2024. <span>‘AI Unboxed and Jobs: A Novel Measure and Firm-Level Evidence from Three Countries’</span>. <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.4691172">https://doi.org/10.2139/ssrn.4691172</a>.
+</div>
+<div id="ref-nyajuoga" class="csl-entry" role="listitem">
+Nyajuoga, Joseph. n.d. <span>‘Joseph-Data/Daioe<span>_</span>dataset: AI-Econ Lab, Örebro University’</span>. <a href="https://doi.org/10.5281/zenodo.17765750">https://doi.org/10.5281/zenodo.17765750</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://drive.google.com/file/d/1hHIGmXC8j0GDDkCJuZ76ub63Hq7CgRbS/view">Engberg et al.&nbsp;(2025)</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

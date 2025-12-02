@@ -67,6 +67,20 @@
     "text": "AI sub-domains\n\n\n\n\n\n\nTipAI Subdomains\n\n\n\n\n\n\n♟️ Abstract strategy games — tests long-horizon planning & search.\n🎮 Real-time video games — adaptive control under time pressure.\n🖼️🔎 Image recognition — identifying objects & patterns in images.\n🧩🖼️ Image comprehension — reasoning about what an image depicts.\n🖌️🖼️ Image generation — creating or editing visual content.\n📖 Reading comprehension — extracting and using information from text.\n✍️🤖 Language modelling — generating and transforming text.\n🌐🔤 Translation — converting meaning across languages.\n🗣️🎙️ Speech recognition — turning audio into text reliably."
   },
   {
+    "objectID": "index.html#links-downloads-and-readme",
+    "href": "index.html#links-downloads-and-readme",
+    "title": "Dynamic AI Occupational Exposure Index",
+    "section": "Links, downloads and “README”",
+    "text": "Links, downloads and “README”\nThe original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al. (2025)1.\nSuggested citation: Engberg et al. (2024)\nDAIOE data can be downloaded ➡️ Github (2010 to latest available year) and can be cited as Nyajuoga (n.d.)."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Dynamic AI Occupational Exposure Index",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEngberg et al. (2025)↩︎"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Overview",
