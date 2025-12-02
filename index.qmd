@@ -5,11 +5,23 @@ repo-actions: false
 format:
   html: 
     grid:
-      body-width: 900px
-      margin-width: 250px
+      body-width: 1000px
+      margin-width: 400px
+    other-links: 
+      - text: "DAIOE Data Download (2010 to latest year)"
+        icon: database-fill-down
+        href: https://github.com/joseph-data/daioe_dataset
+      - text: The original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al. (2025)
+        icon: book
+        href: https://drive.google.com/file/d/1hHIGmXC8j0GDDkCJuZ76ub63Hq7CgRbS/view
+    link-external-icon: true
+
 reference-location: document
-# citation-location: margin
+citation-location: margin
 bibliography: references.bib
+link-bibliography: true
+linkstyle: boldslanted
+
 ---
 
 ## What it is? (in plain English)
@@ -20,7 +32,8 @@ DAIOE tracks how advances in artificial intelligence change the potential impact
 
 Because DAIOE is dynamic and subdomain-specific, it’s better aligned with real technical progress than static, one-shot measures. In essence, it "unpacks" AI--enabling analysis of how exposed occupations are to different types of AI. By combining DAIOE with other data that have occupation codes, such as industry-level data or linked employer-employee data, researchers and policymakers can trace exposure by occupation, sector, skill level, or country (e.g., Denmark, Portugal, Sweden in our firm-level applications), and test whether AI exposure is associated with up-skilling or reallocation inside firms and industries. In our firm-level evidence, total employment associations are small on average, but exposure is linked to a higher share of high-skilled white-collar work and a lower share of low-skill clerical roles. Meanwhile, results differ meaningfully across different types of AI, underlining the importance of "unpacking" exposure to AI.
 
-## DAIOE-at-a-glance
+
+::: {.callout-note icon="false" title="DAIOE at a glance"}
 
 -   **Coverage**: 2010– (currently, 2023)
 
@@ -35,6 +48,8 @@ Because DAIOE is dynamic and subdomain-specific, it’s better aligned with real
 -   **Total number of indices**: 11 (1 overall; 1 genAI; 9 sub-indices)
 
 -   **Meaning**: Exposure = potential applicability of AI capabilities to occupational content (not adoption or automation probability).
+
+:::
 
 ## Technical specification (short)
 
@@ -64,7 +79,6 @@ DAIOE measures the potential applicability of AI to occupational content, over t
 
 ## AI sub-domains
 
-::: {.callout-tip title="AI Subdomains" collapse="false" icon="false"}
 1.  ♟️ Abstract strategy games — tests long-horizon planning & search.
 
 2.  🎮 Real-time video games — adaptive control under time pressure.
@@ -82,14 +96,13 @@ DAIOE measures the potential applicability of AI to occupational content, over t
 8.  🌐🔤 Translation — converting meaning across languages.
 
 9.  🗣️🎙️ Speech recognition — turning audio into text reliably.
-:::
 
-## Links, downloads and "README"
+## Links
 
-The original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by Engberg et al. (2025)[^1].
+The original paper The DAIOE is developed, explained, validated, and applied in the most current version of the paper by [Engberg et al. (2025)](https://drive.google.com/file/d/1hHIGmXC8j0GDDkCJuZ76ub63Hq7CgRbS/view).
 
-[^1]: [Engberg et al. (2025)](https://drive.google.com/file/d/1hHIGmXC8j0GDDkCJuZ76ub63Hq7CgRbS/view)
+**Suggested citation**: @engberg2024
 
-Suggested citation: @engberg2024
+DAIOE data can be downloaded ➡️ [Github](https://github.com/joseph-data/daioe_dataset) (2010 to latest available year) and its full documentation specified.
 
-DAIOE data can be downloaded ➡️ [Github](https://github.com/joseph-data/daioe_dataset) (2010 to latest available year) and can be cited as @nyajuoga.
+

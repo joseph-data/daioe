@@ -5,6 +5,12 @@ title: "Overview"
 
 This section introduces the coming sections and Analysis done.
 
+I add for each section
+
+ - data sources (Links, and integration)
+ - workflow design
+ - manual on how to use the Apps
+
 # Dashboard
 
 # Employment Changes by AI

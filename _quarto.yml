@@ -48,7 +48,7 @@ website:
     collapse-level: 3
     title: "Explore"
     style: docked
-    background: light
+    # background: light
     contents: 
       - text: "Overview"
         href: about.qmd
