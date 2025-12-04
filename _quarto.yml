@@ -1,16 +1,22 @@
 project:
-  type: website
-  output-dir: docs
+  type: website # Use Quarto website project type
+  output-dir: docs # Publish-ready output folder (works with GitHub Pages)
 
 metadata:
-  year: 2025   # or whatever the current year is
+  year: 2025   # Used by footer meta substitutions
 
 execute: 
-  freeze: auto
+  freeze: auto # Cache rendered documents for faster rebuilds
+language: 
+  search-text-placeholder: "Search ..." # Custom placeholder for site search
 
 website:
-  reader-mode: true
-  google-analytics: "G-W37DRJ0QYC"
+  search: 
+    location: navbar # Render search in the navbar
+    type: overlay # Full-screen search overlay
+    show-item-context: true # Include page context in search results
+  reader-mode: true # Hide nav for distraction-free reading
+  google-analytics: "G-W37DRJ0QYC" # GA4 measurement ID
   announcement: 
     icon: info-circle
     dismissable: true
@@ -20,10 +26,9 @@ website:
   favicon: assets/images/lab.svg
   title: "DAIOE"
   repo-url: https://github.com/joseph-data/daioe
-  repo-actions: [edit, issue]
-  open-graph: true
+  repo-actions: [edit, issue] # Show edit/issue links in navbar
+  open-graph: true # Enable Open Graph metadata for sharing
   navbar:
-    search: true
     logo: assets/images/lab.svg
     logo-alt: "AI-Econ Lab logo"
     pinned: true
@@ -45,9 +50,9 @@ website:
   sidebar:
     # logo: assets/images/lab.svg
     id: explore
-    collapse-level: 3
+    collapse-level: 3 # Collapse sidebar after depth 3
     title: "Explore"
-    style: docked
+    style: docked # Fixed sidebar layout
     # background: light
     contents: 
       - text: "Overview"
@@ -60,9 +65,9 @@ website:
         href: notebooks/03_occupation_by_exposure.qmd
 
 
-  page-navigation: true
-  back-to-top-navigation: true
-  bread-crumbs: true
+  page-navigation: true # Next/previous links on pages
+  back-to-top-navigation: true # Floating back-to-top button
+  bread-crumbs: true # Breadcrumb trail below navbar
   page-footer:
     # background: dark    
     border: True
@@ -82,16 +87,16 @@ format:
     lang: en-GB
     date-format: 'dddd[, the] Do [of] MMMM, YYYY'
     highlight-style: github
-    code-copy: true
-    code-link: true
-    code-overflow: wrap
-    anchor-sections: true
-    email-obfuscation: javascript
-    link-external-newwindow: true
-    link-external-icon: false
-    smooth-scroll: true
-    respect-user-color-scheme: true
-    crossrefs-hover: true
+    code-copy: true # Copy button on code blocks
+    code-link: true # Source file links on code blocks
+    code-overflow: wrap # Wrap long code lines
+    anchor-sections: true # Linkable section headers
+    email-obfuscation: javascript # Hide emails from bots
+    link-external-newwindow: true # Open external links in new tab
+    link-external-icon: false # Hide external link icon
+    smooth-scroll: true # Smooth anchor scrolling
+    respect-user-color-scheme: true # Honor user OS light/dark preference
+    crossrefs-hover: true # Hover previews for cross-references
 
 
-lightbox: auto
+lightbox: auto # Auto-enable lightbox for images
