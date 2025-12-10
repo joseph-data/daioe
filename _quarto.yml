@@ -55,14 +55,10 @@ website:
     style: docked # Fixed sidebar layout
     # background: light
     contents: 
-      - text: "Overview"
-        href: about.qmd
-      - text: "Dashboard"
-        href: notebooks/01_dashboard.qmd
-      - text: "Employment Changes by AI Exposure"
-        href: notebooks/02_employment_change.qmd
-      - text: "Occupations Employed by Age"
-        href: notebooks/03_occupation_by_exposure.qmd
+      - href: about.qmd
+      - href: notebooks/01_dashboard.qmd
+      - href: notebooks/02_employment_change.qmd
+      - href: notebooks/03_occupation_by_exposure.qmd
 
 
   page-navigation: true # Next/previous links on pages

@@ -1,6 +1,6 @@
 ---
 page-layout: full
-title: "Employment Changes by Level of AI Exposure"
+title: "Yearly Employment Changes by Age and Level of AI Exposure"
 format:
   html: 
     grid:
