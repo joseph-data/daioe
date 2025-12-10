@@ -2,12 +2,12 @@
   {
     "objectID": "notebooks/02_employment_change.html",
     "href": "notebooks/02_employment_change.html",
-    "title": "Employment Changes by Level of AI Exposure",
+    "title": "Yearly Employment Changes by Age and Level of AI Exposure",
     "section": "",
     "text": "Back to top",
     "crumbs": [
       "Explore",
-      "Employment Changes by AI Exposure"
+      "Yearly Employment Changes by Age and Level of AI Exposure"
     ]
   },
   {
@@ -18,7 +18,7 @@
     "text": "Back to top",
     "crumbs": [
       "Explore",
-      "Dashboard"
+      "DAIOE Dashboard"
     ]
   },
   {
@@ -96,7 +96,7 @@
     "text": "Back to top",
     "crumbs": [
       "Explore",
-      "Occupations Employed by Age"
+      "Employed by Occupations, Age, Year"
     ]
   }
 ]
