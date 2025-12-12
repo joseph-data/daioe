@@ -1,6 +1,6 @@
 ---
 page-layout: full
-title: "Employed by Occupations, Age, Year"
+title: "Employment by Occupation, Age Group, and Year"
 format:
   html: 
     grid:
