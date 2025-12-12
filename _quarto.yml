@@ -57,8 +57,10 @@ website:
     contents: 
       - href: about.qmd
       - href: notebooks/01_dashboard.qmd
-      - href: notebooks/02_employment_change.qmd
-      - href: notebooks/03_occupation_by_exposure.qmd
+      - section: "Yearly Occupational Outlook"
+        contents:
+          - notebooks/03_occupation_by_exposure.qmd
+          - notebooks/02_employment_change.qmd
 
 
   page-navigation: true # Next/previous links on pages
