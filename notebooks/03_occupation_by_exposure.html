@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Employment by Occupation, Age Group, and Year – DAIOE</title>
+<title>Trends in Employment by Occupation and Age Group – DAIOE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,7 +86,8 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Employment by Occupation, Age Group, and Year – DAIOE">
+<meta property="og:title" content="Trends in Employment by Occupation and Age Group – DAIOE">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="DAIOE">
 </head>
 
@@ -326,7 +327,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/02_employment_change.html">Yearly Occupational Outlook</a></li><li class="breadcrumb-item"><a href="../notebooks/03_occupation_by_exposure.html">Employment by Occupation, Age Group, and Year</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/02_employment_change.html">Yearly Occupational Outlook</a></li><li class="breadcrumb-item"><a href="../notebooks/03_occupation_by_exposure.html">Trends in Employment by Occupation and Age Group</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -371,7 +372,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../notebooks/03_occupation_by_exposure.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Employment by Occupation, Age Group, and Year</span></a>
+ <span class="menu-text">Trends in Employment by Occupation and Age Group</span></a>
   </div>
 </li>
       </ul>
@@ -388,9 +389,9 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 <main class="content column-page-right" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/02_employment_change.html">Yearly Occupational Outlook</a></li><li class="breadcrumb-item"><a href="../notebooks/03_occupation_by_exposure.html">Employment by Occupation, Age Group, and Year</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/02_employment_change.html">Yearly Occupational Outlook</a></li><li class="breadcrumb-item"><a href="../notebooks/03_occupation_by_exposure.html">Trends in Employment by Occupation and Age Group</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Employment by Occupation, Age Group, and Year</h1>
+<h1 class="title">Trends in Employment by Occupation and Age Group</h1>
 </div>
 
 
@@ -407,6 +408,20 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 </header>
 
 
+<p>This section examines employment levels across different occupations, age groups, and years. The interactive tool below enables you to explore employment trends over time for various occupations and age demographics.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Note">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To load the charts, select an occupation from the search menu in the interactive tool.</p>
+</div>
+</div>
 <style>
   html, body {
     margin: 0;
@@ -415,6 +430,9 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
   }
 
   .fullpage-frame {
+    position: relative;   /* sticks to viewport */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh; /* full viewport height */
     border: none;

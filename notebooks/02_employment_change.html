@@ -88,6 +88,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 
 
 <meta property="og:title" content="Annual Employment Changes by Age and Level of AI Exposure – DAIOE">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="DAIOE">
 </head>
 
@@ -372,7 +373,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../notebooks/03_occupation_by_exposure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Employment by Occupation, Age Group, and Year</span></a>
+ <span class="menu-text">Trends in Employment by Occupation and Age Group</span></a>
   </div>
 </li>
       </ul>
@@ -408,6 +409,7 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 </header>
 
 
+<p>This section looks at annual employment changes by age group and level of AI exposure. The interactive tool below allows you to explore how employment has changed over time for different age groups and levels of AI exposure.</p>
 <style>
   html, body {
     margin: 0;
@@ -416,6 +418,9 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
   }
 
   .fullpage-frame {
+    position: relative;   /* sticks to viewport */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh; /* full viewport height */
     border: none;
@@ -424,6 +429,32 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
 
 <iframe class="fullpage-frame" src="https://joseph-data-employment-ai.hf.space">
 </iframe>
+<!-- ```{=html}
+<style>
+  html, body {
+    margin: 20;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fullpage-frame {
+    position: relative;   /* sticks to viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+  }
+</style>
+
+<iframe
+  class="fullpage-frame"
+  src="https://joseph-data-employment-ai.hf.space"
+  loading="lazy"
+  title="Employment Explorer">
+</iframe>
+``` -->
 
 
 
@@ -853,8 +884,8 @@ gtag('config', 'G-W37DRJ0QYC', { 'anonymize_ip': true});
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../notebooks/03_occupation_by_exposure.html" class="pagination-link" aria-label="Employment by Occupation, Age Group, and Year">
-        <span class="nav-page-text">Employment by Occupation, Age Group, and Year</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../notebooks/03_occupation_by_exposure.html" class="pagination-link" aria-label="Trends in Employment by Occupation and Age Group">
+        <span class="nav-page-text">Trends in Employment by Occupation and Age Group</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

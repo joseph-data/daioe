@@ -4,7 +4,7 @@
     "href": "notebooks/02_employment_change.html",
     "title": "Annual Employment Changes by Age and Level of AI Exposure",
     "section": "",
-    "text": "Back to top",
+    "text": "This section looks at annual employment changes by age group and level of AI exposure. The interactive tool below allows you to explore how employment has changed over time for different age groups and levels of AI exposure.\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Explore",
       "Yearly Occupational Outlook",
@@ -92,13 +92,13 @@
   {
     "objectID": "notebooks/03_occupation_by_exposure.html",
     "href": "notebooks/03_occupation_by_exposure.html",
-    "title": "Employment by Occupation, Age Group, and Year",
+    "title": "Trends in Employment by Occupation and Age Group",
     "section": "",
-    "text": "Back to top",
+    "text": "This section examines employment levels across different occupations, age groups, and years. The interactive tool below enables you to explore employment trends over time for various occupations and age demographics.\n\n\n\n\n\n\nNoteNote\n\n\n\nTo load the charts, select an occupation from the search menu in the interactive tool.\n\n\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Explore",
       "Yearly Occupational Outlook",
-      "Employment by Occupation, Age Group, and Year"
+      "Trends in Employment by Occupation and Age Group"
     ]
   }
 ]
