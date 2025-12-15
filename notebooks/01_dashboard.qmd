@@ -16,6 +16,9 @@ format:
   }
 
   .fullpage-frame {
+    position: relative;   /* sticks to viewport */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh; /* full viewport height */
     border: none;

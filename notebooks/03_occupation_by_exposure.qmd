@@ -1,11 +1,17 @@
 ---
 page-layout: full
-title: "Employment by Occupation, Age Group, and Year"
+title: "Trends in Employment by Occupation and Age Group"
 format:
   html: 
     grid:
       body-width: 2000px
 ---
+This section examines employment levels across different occupations, age groups, and years. The interactive tool below enables you to explore employment trends over time for various occupations and age demographics.
+
+::: {.callout-note title="Note"}
+To load the charts, select an occupation from the search menu in the interactive tool.
+:::
+
 
 ```{=html}
 <style>
@@ -16,6 +22,9 @@ format:
   }
 
   .fullpage-frame {
+    position: relative;   /* sticks to viewport */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh; /* full viewport height */
     border: none;
