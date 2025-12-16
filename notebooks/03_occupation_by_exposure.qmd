@@ -8,7 +8,7 @@ format:
 ---
 This section examines employment levels across different occupations, age groups, and years. The interactive tool below enables you to explore employment trends over time for various occupations and age demographics.
 
-::: {.callout-note title="Note"}
+::: {.callout-note title="How to use"}
 To load the charts, select an occupation from the search menu in the interactive tool.
 :::
 
